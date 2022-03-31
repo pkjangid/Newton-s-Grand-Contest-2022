@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str1[20];
+int result;
+gets(str1);
+	
+	
+	result = strcmp(str1, "Apple");
+	
+	
+	if(result==0){
+	printf("Gravity");
+	}
+	else{
+	printf("Space");
+	}
+	
+	return 0;
+}
